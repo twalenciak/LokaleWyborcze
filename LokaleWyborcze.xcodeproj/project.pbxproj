@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A56834A4D831F6AACFB50D /* libPods-LokaleWyborcze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F25816016167F526C740B /* libPods-LokaleWyborcze.a */; };
+		EFD825A81B84D88D00C02776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825A71B84D88D00C02776 /* main.m */; };
+		EFD825AB1B84D88D00C02776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825AA1B84D88D00C02776 /* AppDelegate.m */; };
+		EFD825B11B84D88D00C02776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD825AF1B84D88D00C02776 /* Main.storyboard */; };
+		EFD825B31B84D88D00C02776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD825B21B84D88D00C02776 /* Images.xcassets */; };
+		EFD825B61B84D88D00C02776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD825B41B84D88D00C02776 /* LaunchScreen.xib */; };
+		EFD825C21B84D88D00C02776 /* LokaleWyborczeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825C11B84D88D00C02776 /* LokaleWyborczeTests.m */; };
+		EFD825D01B84DF3100C02776 /* LocalsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825CF1B84DF3100C02776 /* LocalsProvider.m */; };
+		EFD825D41B84E06D00C02776 /* LocalsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825D31B84E06D00C02776 /* LocalsController.m */; };
+		EFD825D71B84E13D00C02776 /* LocalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825D61B84E13D00C02776 /* LocalCell.m */; };
+		EFD825DA1B84E1FD00C02776 /* Local.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825D91B84E1FD00C02776 /* Local.m */; };
+		EFD825DD1B861FE400C02776 /* MapLocalController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD825DC1B861FE400C02776 /* MapLocalController.m */; };
+		EFD9431D1B8624AD004188E2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD9431C1B8624AD004188E2 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD825BC1B84D88D00C02776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD8259A1B84D88D00C02776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD825A11B84D88D00C02776;
+			remoteInfo = LokaleWyborcze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0078303118989630C3E1DDFB /* Pods-LokaleWyborcze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokaleWyborcze.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokaleWyborcze/Pods-LokaleWyborcze.release.xcconfig"; sourceTree = "<group>"; };
+		132B60DA5FE68BF0B5DD691D /* Pods-LokaleWyborcze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokaleWyborcze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokaleWyborcze/Pods-LokaleWyborcze.debug.xcconfig"; sourceTree = "<group>"; };
+		455F25816016167F526C740B /* libPods-LokaleWyborcze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LokaleWyborcze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD825A21B84D88D00C02776 /* LokaleWyborcze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokaleWyborcze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD825A61B84D88D00C02776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD825A71B84D88D00C02776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD825A91B84D88D00C02776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD825AA1B84D88D00C02776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD825B01B84D88D00C02776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD825B21B84D88D00C02776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD825B51B84D88D00C02776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFD825BB1B84D88D00C02776 /* LokaleWyborczeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokaleWyborczeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD825C01B84D88D00C02776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD825C11B84D88D00C02776 /* LokaleWyborczeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LokaleWyborczeTests.m; sourceTree = "<group>"; };
+		EFD825CE1B84DF3100C02776 /* LocalsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalsProvider.h; path = ../LokaleWyborcze/LocalsProvider.h; sourceTree = "<group>"; };
+		EFD825CF1B84DF3100C02776 /* LocalsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalsProvider.m; path = ../LokaleWyborcze/LocalsProvider.m; sourceTree = "<group>"; };
+		EFD825D21B84E06D00C02776 /* LocalsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalsController.h; sourceTree = "<group>"; };
+		EFD825D31B84E06D00C02776 /* LocalsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalsController.m; sourceTree = "<group>"; };
+		EFD825D51B84E13D00C02776 /* LocalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalCell.h; sourceTree = "<group>"; };
+		EFD825D61B84E13D00C02776 /* LocalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalCell.m; sourceTree = "<group>"; };
+		EFD825D81B84E1FD00C02776 /* Local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Local.h; sourceTree = "<group>"; };
+		EFD825D91B84E1FD00C02776 /* Local.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Local.m; sourceTree = "<group>"; };
+		EFD825DB1B861FE400C02776 /* MapLocalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocalController.h; sourceTree = "<group>"; };
+		EFD825DC1B861FE400C02776 /* MapLocalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocalController.m; sourceTree = "<group>"; };
+		EFD9431C1B8624AD004188E2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD8259F1B84D88D00C02776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD9431D1B8624AD004188E2 /* MapKit.framework in Frameworks */,
+				27A56834A4D831F6AACFB50D /* libPods-LokaleWyborcze.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD825B81B84D88D00C02776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B6C9DABCC058B95C40D89A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				132B60DA5FE68BF0B5DD691D /* Pods-LokaleWyborcze.debug.xcconfig */,
+				0078303118989630C3E1DDFB /* Pods-LokaleWyborcze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFD825991B84D88D00C02776 = {
+			isa = PBXGroup;
+			children = (
+				EFD825D11B84E06D00C02776 /* Classes */,
+				EFD825A41B84D88D00C02776 /* LokaleWyborcze */,
+				EFD825BE1B84D88D00C02776 /* LokaleWyborczeTests */,
+				EFD825A31B84D88D00C02776 /* Products */,
+				D0B6C9DABCC058B95C40D89A /* Pods */,
+				FD9540797437B7E7673514BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD825A31B84D88D00C02776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825A21B84D88D00C02776 /* LokaleWyborcze.app */,
+				EFD825BB1B84D88D00C02776 /* LokaleWyborczeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD825A41B84D88D00C02776 /* LokaleWyborcze */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825A91B84D88D00C02776 /* AppDelegate.h */,
+				EFD825AA1B84D88D00C02776 /* AppDelegate.m */,
+				EFD825AF1B84D88D00C02776 /* Main.storyboard */,
+				EFD825B21B84D88D00C02776 /* Images.xcassets */,
+				EFD825B41B84D88D00C02776 /* LaunchScreen.xib */,
+				EFD825A51B84D88D00C02776 /* Supporting Files */,
+			);
+			path = LokaleWyborcze;
+			sourceTree = "<group>";
+		};
+		EFD825A51B84D88D00C02776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825A61B84D88D00C02776 /* Info.plist */,
+				EFD825A71B84D88D00C02776 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD825BE1B84D88D00C02776 /* LokaleWyborczeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825C11B84D88D00C02776 /* LokaleWyborczeTests.m */,
+				EFD825BF1B84D88D00C02776 /* Supporting Files */,
+			);
+			path = LokaleWyborczeTests;
+			sourceTree = "<group>";
+		};
+		EFD825BF1B84D88D00C02776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825C01B84D88D00C02776 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD825D11B84E06D00C02776 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFD825D21B84E06D00C02776 /* LocalsController.h */,
+				EFD825D31B84E06D00C02776 /* LocalsController.m */,
+				EFD825CE1B84DF3100C02776 /* LocalsProvider.h */,
+				EFD825CF1B84DF3100C02776 /* LocalsProvider.m */,
+				EFD825D51B84E13D00C02776 /* LocalCell.h */,
+				EFD825D61B84E13D00C02776 /* LocalCell.m */,
+				EFD825D81B84E1FD00C02776 /* Local.h */,
+				EFD825D91B84E1FD00C02776 /* Local.m */,
+				EFD825DB1B861FE400C02776 /* MapLocalController.h */,
+				EFD825DC1B861FE400C02776 /* MapLocalController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD9540797437B7E7673514BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFD9431C1B8624AD004188E2 /* MapKit.framework */,
+				455F25816016167F526C740B /* libPods-LokaleWyborcze.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD825A11B84D88D00C02776 /* LokaleWyborcze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD825C51B84D88D00C02776 /* Build configuration list for PBXNativeTarget "LokaleWyborcze" */;
+			buildPhases = (
+				AE667A95B3151C34C8EB45F8 /* Check Pods Manifest.lock */,
+				EFD8259E1B84D88D00C02776 /* Sources */,
+				EFD8259F1B84D88D00C02776 /* Frameworks */,
+				EFD825A01B84D88D00C02776 /* Resources */,
+				BE196A591A648C3284B4412F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LokaleWyborcze;
+			productName = LokaleWyborcze;
+			productReference = EFD825A21B84D88D00C02776 /* LokaleWyborcze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD825BA1B84D88D00C02776 /* LokaleWyborczeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD825C81B84D88D00C02776 /* Build configuration list for PBXNativeTarget "LokaleWyborczeTests" */;
+			buildPhases = (
+				EFD825B71B84D88D00C02776 /* Sources */,
+				EFD825B81B84D88D00C02776 /* Frameworks */,
+				EFD825B91B84D88D00C02776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD825BD1B84D88D00C02776 /* PBXTargetDependency */,
+			);
+			name = LokaleWyborczeTests;
+			productName = LokaleWyborczeTests;
+			productReference = EFD825BB1B84D88D00C02776 /* LokaleWyborczeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD8259A1B84D88D00C02776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TWalenciak;
+				TargetAttributes = {
+					EFD825A11B84D88D00C02776 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EFD825BA1B84D88D00C02776 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFD825A11B84D88D00C02776;
+					};
+				};
+			};
+			buildConfigurationList = EFD8259D1B84D88D00C02776 /* Build configuration list for PBXProject "LokaleWyborcze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD825991B84D88D00C02776;
+			productRefGroup = EFD825A31B84D88D00C02776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD825A11B84D88D00C02776 /* LokaleWyborcze */,
+				EFD825BA1B84D88D00C02776 /* LokaleWyborczeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD825A01B84D88D00C02776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD825B11B84D88D00C02776 /* Main.storyboard in Resources */,
+				EFD825B61B84D88D00C02776 /* LaunchScreen.xib in Resources */,
+				EFD825B31B84D88D00C02776 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD825B91B84D88D00C02776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE667A95B3151C34C8EB45F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE196A591A648C3284B4412F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LokaleWyborcze/Pods-LokaleWyborcze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD8259E1B84D88D00C02776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD825DA1B84E1FD00C02776 /* Local.m in Sources */,
+				EFD825D41B84E06D00C02776 /* LocalsController.m in Sources */,
+				EFD825AB1B84D88D00C02776 /* AppDelegate.m in Sources */,
+				EFD825DD1B861FE400C02776 /* MapLocalController.m in Sources */,
+				EFD825D71B84E13D00C02776 /* LocalCell.m in Sources */,
+				EFD825D01B84DF3100C02776 /* LocalsProvider.m in Sources */,
+				EFD825A81B84D88D00C02776 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD825B71B84D88D00C02776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD825C21B84D88D00C02776 /* LokaleWyborczeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD825BD1B84D88D00C02776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD825A11B84D88D00C02776 /* LokaleWyborcze */;
+			targetProxy = EFD825BC1B84D88D00C02776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD825AF1B84D88D00C02776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD825B01B84D88D00C02776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD825B41B84D88D00C02776 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD825B51B84D88D00C02776 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD825C31B84D88D00C02776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD825C41B84D88D00C02776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD825C61B84D88D00C02776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132B60DA5FE68BF0B5DD691D /* Pods-LokaleWyborcze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LokaleWyborcze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD825C71B84D88D00C02776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0078303118989630C3E1DDFB /* Pods-LokaleWyborcze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LokaleWyborcze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD825C91B84D88D00C02776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LokaleWyborczeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokaleWyborcze.app/LokaleWyborcze";
+			};
+			name = Debug;
+		};
+		EFD825CA1B84D88D00C02776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LokaleWyborczeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokaleWyborcze.app/LokaleWyborcze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD8259D1B84D88D00C02776 /* Build configuration list for PBXProject "LokaleWyborcze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD825C31B84D88D00C02776 /* Debug */,
+				EFD825C41B84D88D00C02776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD825C51B84D88D00C02776 /* Build configuration list for PBXNativeTarget "LokaleWyborcze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD825C61B84D88D00C02776 /* Debug */,
+				EFD825C71B84D88D00C02776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD825C81B84D88D00C02776 /* Build configuration list for PBXNativeTarget "LokaleWyborczeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD825C91B84D88D00C02776 /* Debug */,
+				EFD825CA1B84D88D00C02776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD8259A1B84D88D00C02776 /* Project object */;
+}
